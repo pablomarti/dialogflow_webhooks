@@ -10,6 +10,8 @@ if (!empty($_POST)) {
 
   // Set log of data sent by Dialogflow
   file_put_contents($file, $current);
+
+  echo "OK";
 }
 
 ?>
